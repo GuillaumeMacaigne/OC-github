@@ -51,4 +51,3 @@ with open('result.csv', 'r') as f:
 with open('result2.csv', 'w+') as f:
     writer = csv.writer(f, delimiter=';')
     writer.writerows(data)
-
